@@ -1,5 +1,6 @@
 # EZXR
 Old school VR library for UnityXR
+
 This is a Unity C# script to let you access UnityXR controller inputs by just using function calls rather than Unity's event system.
 
 To use it, just place it in your Asset folder and make calls in any of your scripts like:
