@@ -13,6 +13,8 @@ if (EZXR.isLeftTriggerPressed()){
 
 Vector2 pad = EZXR.leftTouchPadTouched();
 
+Refer to: https://docs.unity3d.com/Manual/xr_input.html for Unity XR's input bindings when using this API.
+
 Available Functions:
 
 TRIGGER BUTTONS
