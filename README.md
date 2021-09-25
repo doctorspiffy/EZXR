@@ -6,7 +6,9 @@ This is a Unity C# script to let you access UnityXR controller inputs by just us
 To use it, just place it in your Asset folder and make calls in any of your scripts like:
 
 
-if (EZXR.isLeftTriggerPressed()){print ("YIPPEE");}
+if (EZXR.isLeftTriggerPressed()){
+    print ("YIPPEE You pressed the trigger");
+}
 
 
 Vector2 pad = EZXR.leftTouchPadTouched();
