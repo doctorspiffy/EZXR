@@ -1,7 +1,7 @@
 # EZXR
 Old school VR library for UnityXR
 
-This is a Unity C# script to let you access UnityXR controller inputs by just using function calls rather than Unity's event system.
+This is a Unity C# script to let you access UnityXR controller inputs by just using EASY function calls rather than Unity's event system.
 
 To use it, just place it in your Asset folder and make calls in any of your scripts like:
 
@@ -74,7 +74,7 @@ TOUCHPADS
     bool isRightTouchPadClicked()
     bool isRightTouchPadReleased()
     
-JOYSTICKS Windows Media
+JOYSTICKS Windows Mixed Reality Systems
 
     Vector2 leftSecondary2DAxis()
     Vector2 rightSecondary2DAxis()
